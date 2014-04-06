@@ -1,0 +1,27 @@
+########################################################################
+########################################################################
+#############                 README                 ###################
+#############   Final Project - Learning From Data   ###################
+#############   (c) Tim auf der Landwehr (S2548682)  ###################
+########################################################################
+########################################################################
+
+This file only contains the usage output of movie_pirate.py. For further
+information on this program see the the appendix in report.pdf.
+
+ Usage: movie_pirate.py
+   > Add at least a single feature or a feature set
+
+ --fs [1..8]
+  Add a set of features
+ --f [feature]
+  Add a single feature
+
+ --train <file>
+  Use <file> as training file, default: <train>
+ --test <file>
+  Use <file> as training file, default: <dev>
+ --run-weka
+  Run WEKA on the generated output files,
+   > requires [weka.jar] in $CLASSPATH or ./weka.jar
+
